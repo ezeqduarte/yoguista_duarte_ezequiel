@@ -1,0 +1,19 @@
+#contacto {
+    h1 {
+        color: $titulos;
+    }
+
+    .contenedor_contacto {
+        form {
+            fieldset {
+                textarea {
+                    resize: none;
+                }
+                #boton {
+                    color: white;
+                    background-color: $color_boton;
+                }
+            }
+        }
+    }
+}

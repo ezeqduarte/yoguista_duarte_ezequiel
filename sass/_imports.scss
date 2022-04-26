@@ -1,0 +1,147 @@
+@media screen and (min-width:576px) {
+    #texto_index {
+        margin-top: 1%;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .textos_sobremi {
+        padding: 4%;
+    }
+
+
+}
+
+@media screen and (min-width:992px) {
+    nav {
+        .logo {
+            transition: all 200ms;
+
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
+
+
+        li {
+            transition: all 100ms;
+
+            &:hover {
+                transform: scale(1.02);
+                font-weight: bolder;
+            }
+        }
+    }
+
+    footer {
+        .logo {
+            transition: all 200ms;
+
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
+
+        .fotos_footer {
+            transition: all 100ms;
+
+            &:hover {
+                transform: scale(1.07);
+            }
+        }
+    }
+
+    #presentacion {
+        #texto_index {
+            margin-top: 0%;
+
+            #texto_index_especifico {
+                margin: 2% 0%;
+
+            }
+        }
+    }
+
+
+    #home {
+        #descripcion_home {
+            transition: all 200ms;
+
+            &:hover {
+                transform: scale(1.4);
+                border: solid;
+                background-color: rgba(255, 255, 255, 0.973);
+                border-radius: 15px;
+            }
+        }
+    }
+
+
+    #sobremi {
+        padding: 1% 0%;
+
+        .textos_sobremi {
+            transition: all 200ms;
+
+            &:hover {
+                transform: scale(1.4);
+                border: solid;
+                background-color: rgba(255, 255, 255, 0.973);
+                border-radius: 15px;
+            }
+        }
+    }
+
+    #tips {
+        article {
+            transition: all 100ms;
+
+            &:hover {
+                transform: scale(1.07);
+                background-color: white;
+            }
+        }
+    }
+
+    #complementos {
+        img {
+            transition: all 100ms;
+
+            &:hover {
+                transform: scale(1.07);
+                border: solid;
+                border-color: black;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    #presentacion {
+        padding: 1.4% 0%;
+    }
+
+    #home {
+        padding: 4% 0%;
+    }
+
+    #tips {
+        article {
+            margin: 0%;
+            margin-bottom: 3%;
+
+        }
+    }
+
+    #complementos {
+        padding: 3.8% 0%;
+
+        p {
+            margin: 3% 0%;
+        }
+    }
+
+
+}

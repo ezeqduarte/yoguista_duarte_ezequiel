@@ -1,0 +1,115 @@
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+#texto_index {
+  padding: 3%;
+  margin-top: 15%; }
+  #texto_index #texto_index_especifico {
+    margin: 10% 0%; }
+    #texto_index #texto_index_especifico h1 {
+      color: #547670;
+      margin-top: 5%; }
+    #texto_index #texto_index_especifico p {
+      padding: 3%; }
+  #texto_index .imagen_index {
+    border-radius: 25px; }
+
+#home .container h2 {
+  color: #547670;
+  margin-top: 5%; }
+
+#home .container .imagen_home {
+  border-radius: 25px; }
+
+#sobremi h1 {
+  color: #547670; }
+
+#tips h1 {
+  color: #547670; }
+
+#tips article {
+  margin: 2%; }
+
+#complementos h1 {
+  color: #547670; }
+
+#contacto h1 {
+  color: #547670; }
+
+#contacto .contenedor_contacto form fieldset textarea {
+  resize: none; }
+
+#contacto .contenedor_contacto form fieldset #boton {
+  color: white;
+  background-color: #ff7a7a; }
+
+@media screen and (min-width: 576px) {
+  #texto_index {
+    margin-top: 1%; } }
+
+@media screen and (min-width: 768px) {
+  .textos_sobremi {
+    padding: 4%; } }
+
+@media screen and (min-width: 992px) {
+  nav .logo {
+    transition: all 200ms; }
+    nav .logo:hover {
+      transform: scale(1.02); }
+  nav li {
+    transition: all 100ms; }
+    nav li:hover {
+      transform: scale(1.02);
+      font-weight: bolder; }
+  footer .logo {
+    transition: all 200ms; }
+    footer .logo:hover {
+      transform: scale(1.02); }
+  footer .fotos_footer {
+    transition: all 100ms; }
+    footer .fotos_footer:hover {
+      transform: scale(1.07); }
+  #presentacion #texto_index {
+    margin-top: 0%; }
+    #presentacion #texto_index #texto_index_especifico {
+      margin: 2% 0%; }
+  #home #descripcion_home {
+    transition: all 200ms; }
+    #home #descripcion_home:hover {
+      transform: scale(1.4);
+      border: solid;
+      background-color: rgba(255, 255, 255, 0.973);
+      border-radius: 15px; }
+  #sobremi {
+    padding: 1% 0%; }
+    #sobremi .textos_sobremi {
+      transition: all 200ms; }
+      #sobremi .textos_sobremi:hover {
+        transform: scale(1.4);
+        border: solid;
+        background-color: rgba(255, 255, 255, 0.973);
+        border-radius: 15px; }
+  #tips article {
+    transition: all 100ms; }
+    #tips article:hover {
+      transform: scale(1.07);
+      background-color: white; }
+  #complementos img {
+    transition: all 100ms; }
+    #complementos img:hover {
+      transform: scale(1.07);
+      border: solid;
+      border-color: black; } }
+
+@media screen and (min-width: 1200px) {
+  #presentacion {
+    padding: 1.4% 0%; }
+  #home {
+    padding: 4% 0%; }
+  #tips article {
+    margin: 0%;
+    margin-bottom: 3%; }
+  #complementos {
+    padding: 3.8% 0%; }
+    #complementos p {
+      margin: 3% 0%; } }

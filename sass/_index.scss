@@ -1,0 +1,22 @@
+#texto_index {
+    padding: 3%;
+    margin-top: 15%;
+
+    #texto_index_especifico {
+        margin: 10% 0%;
+
+        h1 {
+            color: $titulos;
+            margin-top: 5%;
+        }
+
+        p {
+            padding: 3%;
+        }
+    }
+
+    .imagen_index {
+        border-radius: 25px;
+    }
+
+}

@@ -94,12 +94,12 @@
     #tips article:hover {
       transform: scale(1.07);
       background-color: white; }
-  #complementos img {
+  #complementos .card {
     transition: all 100ms; }
-    #complementos img:hover {
+    #complementos .card:hover {
       transform: scale(1.07);
       border: solid;
-      border-color: black; } }
+      border-color: #547670; } }
 
 @media screen and (min-width: 1200px) {
   #presentacion {

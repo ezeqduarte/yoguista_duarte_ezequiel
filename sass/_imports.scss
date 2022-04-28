@@ -105,13 +105,13 @@
     }
 
     #complementos {
-        img {
+        .card {
             transition: all 100ms;
 
             &:hover {
                 transform: scale(1.07);
                 border: solid;
-                border-color: black;
+                border-color: $titulos;
             }
         }
     }

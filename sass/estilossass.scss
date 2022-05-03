@@ -2,8 +2,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+// genere los mapas, en la hoja mapas. Genere los extends en los botones de complementos. Y realicé un mixin con cajas en home y sobremi  //
 
 
+@import "mixins.scss";
+@import "mapas.scss";
 @import "index.scss";
 @import "home.scss";
 @import "sobremi.scss";
@@ -11,4 +14,4 @@
 @import "complementos.scss";
 @import "contacto.scss";
 @import "imports.scss";
-@import "mapas.scss";
+

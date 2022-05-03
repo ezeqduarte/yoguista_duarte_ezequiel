@@ -1,6 +1,15 @@
 * {
   font-family: 'Montserrat', sans-serif; }
 
+.color_h1 {
+  color: #547670; }
+
+.color_secundario {
+  color: #797a7e; }
+
+.color_p {
+  color: #38383a; }
+
 #texto_index {
   padding: 3%;
   margin-top: 15%; }
@@ -16,8 +25,23 @@
 #home .container h2 {
   margin-top: 5%; }
 
+#home .container .contenido-home {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 #home .container .imagen_home {
   border-radius: 25px; }
+
+#sobremi .mivida {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#sobremi .viajes {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 #tips article {
   margin: 2%; }
@@ -95,12 +119,3 @@
     padding: 3.8% 0%; }
     #complementos p {
       margin: 3% 0%; } }
-
-.color_h1 {
-  color: #547670; }
-
-.color_secundario {
-  color: #797a7e; }
-
-.color_p {
-  color: #38383a; }

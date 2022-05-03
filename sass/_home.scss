@@ -1,7 +1,11 @@
 #home {
     .container {
         h2 {
-           margin-top: 5%;
+            margin-top: 5%;
+        }
+
+        .contenido-home {
+            @include centrarcaja
         }
 
         .imagen_home {

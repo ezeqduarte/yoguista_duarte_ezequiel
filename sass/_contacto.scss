@@ -5,9 +5,10 @@
                 textarea {
                     resize: none;
                 }
-                #boton {
+                .btn {
                     color: white;
-                    background-color: $color_boton;
+                    background-color: #ff7a7a;
+                    text-transform: uppercase;
                 }
             }
         }

@@ -1,3 +1,14 @@
 #complementos {
-   
+    .btn {
+        color: white;
+        background-color: #ff7a7a;
+        text-transform: uppercase;
+    }
+
+    .btn_complementos {
+        @extend .btn;
+        text-transform: none;
+        text-align: center;
+
+    }
 }

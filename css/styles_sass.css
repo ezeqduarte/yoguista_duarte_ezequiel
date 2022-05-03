@@ -22,12 +22,22 @@
 #tips article {
   margin: 2%; }
 
+#complementos .btn, #complementos .btn_complementos {
+  color: white;
+  background-color: #ff7a7a;
+  text-transform: uppercase; }
+
+#complementos .btn_complementos {
+  text-transform: none;
+  text-align: center; }
+
 #contacto .contenedor_contacto form fieldset textarea {
   resize: none; }
 
-#contacto .contenedor_contacto form fieldset #boton {
+#contacto .contenedor_contacto form fieldset .btn, #contacto .contenedor_contacto form fieldset #complementos .btn_complementos, #complementos #contacto .contenedor_contacto form fieldset .btn_complementos {
   color: white;
-  background-color: #ff7a7a; }
+  background-color: #ff7a7a;
+  text-transform: uppercase; }
 
 @media screen and (min-width: 576px) {
   #texto_index {
@@ -59,22 +69,8 @@
     margin-top: 0%; }
     #presentacion #texto_index #texto_index_especifico {
       margin: 2% 0%; }
-  #home #descripcion_home {
-    transition: all 200ms; }
-    #home #descripcion_home:hover {
-      transform: scale(1.4);
-      border: solid;
-      background-color: rgba(255, 255, 255, 0.973);
-      border-radius: 15px; }
   #sobremi {
     padding: 1% 0%; }
-    #sobremi .textos_sobremi {
-      transition: all 200ms; }
-      #sobremi .textos_sobremi:hover {
-        transform: scale(1.4);
-        border: solid;
-        background-color: rgba(255, 255, 255, 0.973);
-        border-radius: 15px; }
   #tips article {
     transition: all 100ms; }
     #tips article:hover {

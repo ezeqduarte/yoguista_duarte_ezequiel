@@ -51,6 +51,9 @@
   background-color: #ff7a7a;
   text-transform: uppercase; }
 
+#complementos a {
+  text-decoration: none; }
+
 #complementos .btn_complementos {
   text-transform: none;
   text-align: center; }

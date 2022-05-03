@@ -1,10 +1,10 @@
-$fonts: (
+$colores: (
     titulo: #547670,
     titulo_secundario: #797a7e,
     parrafo: #38383a,
 );
 
-@each $font, $color in $fonts {
+@each $font, $color in $colores {
     .font__#{$font} {
         color: #{$color};
     }

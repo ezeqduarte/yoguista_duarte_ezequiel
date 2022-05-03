@@ -1,22 +1,12 @@
 * {
   font-family: 'Montserrat', sans-serif; }
 
-.font__titulo {
-  color: #547670; }
-
-.font__titulo_secundario {
-  color: #797a7e; }
-
-.font__parrafo {
-  color: #38383a; }
-
 #texto_index {
   padding: 3%;
   margin-top: 15%; }
   #texto_index #texto_index_especifico {
     margin: 10% 0%; }
     #texto_index #texto_index_especifico h1 {
-      color: #547670;
       margin-top: 5%; }
     #texto_index #texto_index_especifico p {
       padding: 3%; }
@@ -24,23 +14,13 @@
     border-radius: 25px; }
 
 #home .container h2 {
-  color: #547670;
   margin-top: 5%; }
 
 #home .container .imagen_home {
   border-radius: 25px; }
 
-#tips h1 {
-  color: #547670; }
-
 #tips article {
   margin: 2%; }
-
-#complementos h1 {
-  color: #547670; }
-
-#contacto h1 {
-  color: #547670; }
 
 #contacto .contenedor_contacto form fieldset textarea {
   resize: none; }
@@ -119,3 +99,12 @@
     padding: 3.8% 0%; }
     #complementos p {
       margin: 3% 0%; } }
+
+.font__titulo {
+  color: #547670; }
+
+.font__titulo_secundario {
+  color: #797a7e; }
+
+.font__parrafo {
+  color: #38383a; }

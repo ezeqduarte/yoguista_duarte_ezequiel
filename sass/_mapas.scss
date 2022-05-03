@@ -1,11 +1,17 @@
-$colores: (
-    titulo: #547670,
-    titulo_secundario: #797a7e,
-    parrafo: #38383a,
+$colores:(
+    colorh1: #547670,
+    colorsecundario: #797a7e,
+    colorp: #38383a,
 );
 
-@each $font, $color in $colores {
-    .font__#{$font} {
-        color: #{$color};
-    }
-} 
+.color_h1{
+    color: map-get($colores, colorh1);
+}
+
+.color_secundario{
+    color: map-get($colores, colorsecundario);
+}
+
+.color_p{
+    color: map-get($colores, colorp);
+}

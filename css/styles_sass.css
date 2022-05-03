@@ -51,6 +51,11 @@
   background-color: #ff7a7a;
   text-transform: uppercase; }
 
+#complementos .card-body {
+  padding: 1rem 0.5rem; }
+  #complementos .card-body p {
+    padding: 0.6rem 0rem; }
+
 #complementos a {
   text-decoration: none; }
 

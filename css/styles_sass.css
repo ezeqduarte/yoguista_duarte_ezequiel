@@ -1,6 +1,15 @@
 * {
   font-family: 'Montserrat', sans-serif; }
 
+.font__titulo {
+  color: #547670; }
+
+.font__titulo_secundario {
+  color: #797a7e; }
+
+.font__parrafo {
+  color: #38383a; }
+
 #texto_index {
   padding: 3%;
   margin-top: 15%; }
@@ -20,9 +29,6 @@
 
 #home .container .imagen_home {
   border-radius: 25px; }
-
-#sobremi h1 {
-  color: #547670; }
 
 #tips h1 {
   color: #547670; }

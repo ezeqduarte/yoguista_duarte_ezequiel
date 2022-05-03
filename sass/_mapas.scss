@@ -1,0 +1,11 @@
+$fonts: (
+    titulo: #547670,
+    titulo_secundario: #797a7e,
+    parrafo: #38383a,
+);
+
+@each $font, $color in $fonts {
+    .font__#{$font} {
+        color: #{$color};
+    }
+} 
